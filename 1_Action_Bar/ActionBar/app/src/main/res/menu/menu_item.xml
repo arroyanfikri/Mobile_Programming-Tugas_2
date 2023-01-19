@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account"
+        android:title="Account"
+        />
+
+    <item
+        android:id="@+id/other"
+        android:title="Other"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="About"
+                />
+            <item
+                android:id="@+id/setting"
+                android:title="Setting"
+                />
+        </menu>
+    </item>
+
+</menu>
